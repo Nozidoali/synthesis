@@ -1,12 +1,9 @@
 # synthesis
-******copyright@why******
-*                       *
-* Created on 2019.06.07 *
-*************************
+copyright@why\
 
-******Introduction******
+Introduction\
 
-******Daily Record******
-1.Create the README.md File
+Daily Record\
+1.Create the README.md File\
 2.
 
