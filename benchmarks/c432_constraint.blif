@@ -1,0 +1,376 @@
+# Benchmark "c432.blif" written by ABC on Mon May 20 11:35:03 2019
+.model c432.blif
+.inputs G1gat G4gat G8gat G11gat G14gat G17gat G21gat G24gat G27gat G30gat \
+ G34gat G37gat G40gat G43gat G47gat G50gat G53gat G56gat G60gat G63gat \
+ G66gat G69gat G73gat G76gat G79gat G82gat G86gat G89gat G92gat G95gat \
+ G99gat G102gat G105gat G108gat G112gat G115gat
+.outputs G223gat G329gat G370gat G421gat G430gat G431gat G432gat
+.names G102gat G108gat new_n44_
+01 1
+.names G76gat G82gat new_n45_
+01 1
+.names G11gat G17gat new_n46_
+01 1
+.names G24gat G30gat new_n47_
+01 1
+.names new_n46_ new_n47_ new_n48_
+00 1
+.names new_n45_ new_n48_ new_n49_
+01 1
+.names new_n44_ new_n49_ new_n50_
+01 1
+.names G50gat G56gat new_n51_
+01 1
+.names G89gat G95gat new_n52_
+01 1
+.names G63gat G69gat new_n53_
+01 1
+.names G1gat G4gat new_n54_
+01 1
+.names G37gat G43gat new_n55_
+01 1
+.names new_n54_ new_n55_ new_n56_
+00 1
+.names new_n53_ new_n56_ new_n57_
+01 1
+.names new_n52_ new_n57_ new_n58_
+01 1
+.names new_n51_ new_n58_ new_n59_
+01 1
+.names new_n50_ new_n59_ G223gat
+11 0
+.names new_n44_ G223gat new_n61_
+01 1
+.names G108gat new_n61_ new_n62_
+10 1
+.names G112gat new_n62_ new_n63_
+01 1
+.names new_n45_ G223gat new_n64_
+01 1
+.names G82gat new_n64_ new_n65_
+10 1
+.names G86gat new_n65_ new_n66_
+01 1
+.names new_n46_ G223gat new_n67_
+00 1
+.names new_n46_ G223gat new_n68_
+11 1
+.names new_n67_ new_n68_ new_n69_
+00 1
+.names G17gat new_n69_ new_n70_
+10 1
+.names G21gat new_n70_ new_n71_
+01 1
+.names new_n47_ G223gat new_n72_
+00 1
+.names new_n47_ G223gat new_n73_
+11 1
+.names new_n72_ new_n73_ new_n74_
+00 1
+.names G30gat new_n74_ new_n75_
+10 1
+.names G34gat new_n75_ new_n76_
+01 1
+.names new_n71_ new_n76_ new_n77_
+00 1
+.names new_n66_ new_n77_ new_n78_
+01 1
+.names new_n63_ new_n78_ new_n79_
+01 1
+.names new_n51_ G223gat new_n80_
+01 1
+.names G56gat new_n80_ new_n81_
+10 1
+.names G60gat new_n81_ new_n82_
+01 1
+.names new_n52_ G223gat new_n83_
+01 1
+.names G95gat new_n83_ new_n84_
+10 1
+.names G99gat new_n84_ new_n85_
+01 1
+.names new_n53_ G223gat new_n86_
+00 1
+.names new_n53_ G223gat new_n87_
+11 1
+.names new_n86_ new_n87_ new_n88_
+00 1
+.names G69gat new_n88_ new_n89_
+10 1
+.names G73gat new_n89_ new_n90_
+01 1
+.names new_n54_ G223gat new_n91_
+00 1
+.names new_n54_ G223gat new_n92_
+11 1
+.names new_n91_ new_n92_ new_n93_
+00 1
+.names G4gat new_n93_ new_n94_
+10 1
+.names G8gat new_n94_ new_n95_
+01 1
+.names new_n55_ G223gat new_n96_
+00 1
+.names new_n55_ G223gat new_n97_
+11 1
+.names new_n96_ new_n97_ new_n98_
+00 1
+.names G43gat new_n98_ new_n99_
+10 1
+.names G47gat new_n99_ new_n100_
+01 1
+.names new_n95_ new_n100_ new_n101_
+00 1
+.names new_n90_ new_n101_ new_n102_
+01 1
+.names new_n85_ new_n102_ new_n103_
+01 1
+.names new_n82_ new_n103_ new_n104_
+01 1
+.names new_n79_ new_n104_ G329gat
+11 0
+.names new_n95_ G329gat new_n106_
+00 1
+.names new_n95_ G329gat new_n107_
+11 1
+.names new_n106_ new_n107_ new_n108_
+00 1
+.names G14gat new_n108_ new_n109_
+00 1
+.names new_n94_ new_n109_ new_n110_
+11 1
+.names new_n71_ G329gat new_n111_
+00 1
+.names new_n71_ G329gat new_n112_
+11 1
+.names new_n111_ new_n112_ new_n113_
+00 1
+.names G27gat new_n70_ new_n114_
+01 1
+.names new_n113_ new_n114_ new_n115_
+01 1
+.names new_n110_ new_n115_ new_n116_
+00 1
+.names new_n76_ G329gat new_n117_
+00 1
+.names new_n76_ G329gat new_n118_
+11 1
+.names new_n117_ new_n118_ new_n119_
+00 1
+.names G40gat new_n75_ new_n120_
+01 1
+.names new_n119_ new_n120_ new_n121_
+01 1
+.names new_n116_ new_n121_ new_n122_
+10 1
+.names new_n100_ G329gat new_n123_
+00 1
+.names new_n100_ G329gat new_n124_
+11 1
+.names new_n123_ new_n124_ new_n125_
+00 1
+.names G53gat new_n99_ new_n126_
+01 1
+.names new_n125_ new_n126_ new_n127_
+01 1
+.names new_n122_ new_n127_ new_n128_
+10 1
+.names G60gat G329gat new_n129_
+11 1
+.names G66gat new_n129_ new_n130_
+00 1
+.names new_n81_ new_n130_ new_n131_
+11 1
+.names new_n128_ new_n131_ new_n132_
+10 1
+.names new_n90_ G329gat new_n133_
+00 1
+.names new_n90_ G329gat new_n134_
+11 1
+.names new_n133_ new_n134_ new_n135_
+00 1
+.names G79gat new_n89_ new_n136_
+01 1
+.names new_n135_ new_n136_ new_n137_
+01 1
+.names new_n132_ new_n137_ new_n138_
+10 1
+.names G86gat G329gat new_n139_
+11 1
+.names G92gat new_n139_ new_n140_
+00 1
+.names new_n65_ new_n140_ new_n141_
+11 1
+.names new_n138_ new_n141_ new_n142_
+10 1
+.names new_n85_ G329gat new_n143_
+00 1
+.names new_n85_ G329gat new_n144_
+11 1
+.names new_n143_ new_n144_ new_n145_
+00 1
+.names G105gat new_n84_ new_n146_
+01 1
+.names new_n145_ new_n146_ new_n147_
+01 1
+.names new_n142_ new_n147_ new_n148_
+10 1
+.names new_n63_ G329gat new_n149_
+00 1
+.names new_n63_ G329gat new_n150_
+11 1
+.names new_n149_ new_n150_ new_n151_
+00 1
+.names G115gat new_n62_ new_n152_
+01 1
+.names new_n151_ new_n152_ new_n153_
+01 1
+.names new_n148_ new_n153_ G370gat
+10 0
+.names G1gat G223gat new_n155_
+11 1
+.names G8gat G329gat new_n156_
+11 1
+.names G14gat G370gat new_n157_
+11 1
+.names new_n156_ new_n157_ new_n158_
+00 1
+.names G4gat new_n158_ new_n159_
+11 1
+.names new_n155_ new_n159_ new_n160_
+01 1
+.names G112gat G329gat new_n161_
+11 1
+.names G102gat G223gat new_n162_
+11 1
+.names G115gat new_n148_ new_n163_
+10 1
+.names G108gat new_n163_ new_n164_
+10 1
+.names new_n162_ new_n164_ new_n165_
+01 1
+.names new_n161_ new_n165_ new_n166_
+01 1
+.names G47gat G329gat new_n167_
+11 1
+.names G37gat G223gat new_n168_
+11 1
+.names G53gat G370gat new_n169_
+11 1
+.names G43gat new_n169_ new_n170_
+10 1
+.names new_n168_ new_n170_ new_n171_
+01 1
+.names new_n167_ new_n171_ new_n172_
+01 1
+.names G66gat G370gat new_n173_
+11 1
+.names G56gat new_n173_ new_n174_
+10 1
+.names G50gat G223gat new_n175_
+11 1
+.names new_n129_ new_n175_ new_n176_
+00 1
+.names new_n174_ new_n176_ new_n177_
+11 1
+.names new_n172_ new_n177_ new_n178_
+00 1
+.names new_n166_ new_n178_ new_n179_
+01 1
+.names G99gat G329gat new_n180_
+11 1
+.names G89gat G223gat new_n181_
+11 1
+.names G105gat G370gat new_n182_
+11 1
+.names G95gat new_n182_ new_n183_
+10 1
+.names new_n181_ new_n183_ new_n184_
+01 1
+.names new_n180_ new_n184_ new_n185_
+01 1
+.names G73gat G329gat new_n186_
+11 1
+.names G63gat G223gat new_n187_
+11 1
+.names G79gat G370gat new_n188_
+11 1
+.names G69gat new_n188_ new_n189_
+10 1
+.names new_n187_ new_n189_ new_n190_
+01 1
+.names new_n186_ new_n190_ new_n191_
+01 1
+.names G21gat G329gat new_n192_
+11 1
+.names G11gat G223gat new_n193_
+11 1
+.names G27gat G370gat new_n194_
+11 1
+.names G17gat new_n194_ new_n195_
+10 1
+.names new_n193_ new_n195_ new_n196_
+01 1
+.names new_n192_ new_n196_ new_n197_
+01 1
+.names G34gat G329gat new_n198_
+11 1
+.names G24gat G223gat new_n199_
+11 1
+.names G40gat G370gat new_n200_
+11 1
+.names G30gat new_n200_ new_n201_
+10 1
+.names new_n199_ new_n201_ new_n202_
+01 1
+.names new_n198_ new_n202_ new_n203_
+01 1
+.names new_n197_ new_n203_ new_n204_
+00 1
+.names G76gat G223gat new_n205_
+11 1
+.names G92gat G370gat new_n206_
+11 1
+.names G82gat new_n206_ new_n207_
+10 1
+.names new_n205_ new_n207_ new_n208_
+01 1
+.names new_n139_ new_n208_ new_n209_
+01 1
+.names new_n204_ new_n209_ new_n210_
+10 1
+.names new_n191_ new_n210_ new_n211_
+01 1
+.names new_n185_ new_n211_ new_n212_
+01 1
+.names new_n179_ new_n212_ new_n213_
+11 1
+.names new_n160_ new_n213_ G421gat
+00 1
+.names new_n178_ new_n204_ G430gat
+11 0
+.names new_n191_ new_n203_ new_n216_
+10 1
+.names new_n209_ new_n216_ new_n217_
+00 1
+.names new_n178_ new_n217_ new_n218_
+10 1
+.names new_n204_ new_n218_ G431gat
+10 0
+.names new_n178_ new_n216_ new_n220_
+11 1
+.names new_n172_ new_n203_ new_n221_
+10 1
+.names new_n197_ new_n221_ new_n222_
+00 1
+.names new_n172_ new_n203_ new_n223_
+00 1
+.names new_n209_ new_n223_ new_n224_
+01 1
+.names new_n185_ new_n224_ new_n225_
+11 1
+.names new_n222_ new_n225_ new_n226_
+10 1
+.names new_n220_ new_n226_ G432gat
+01 0
+.end

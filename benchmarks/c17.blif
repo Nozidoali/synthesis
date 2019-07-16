@@ -1,0 +1,37 @@
+# Benchmark "c17" written by ABC on Sat May 18 15:21:02 2019
+.model c17
+.inputs a
+.outputs b c d e f g h i j k l m n o p
+.names a mid
+0 1
+.names mid b
+0 1
+.names mid c
+0 1
+.names mid d
+0 1
+.names mid e
+0 1
+.names mid f
+0 1
+.names mid g
+0 1
+.names mid h
+0 1
+.names mid i
+0 1
+.names mid j
+0 1
+.names mid k
+0 1
+.names mid l
+0 1
+.names mid m
+0 1
+.names mid n
+0 1
+.names mid o
+0 1
+.names mid p
+0 1
+.end
