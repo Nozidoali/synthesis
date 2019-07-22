@@ -1,4 +1,3 @@
-/*
 #include "cmdline.h"
 #include "abc_parser.h"
 #include "abc_write.h"
@@ -87,4 +86,3 @@ int main( int argc, char * argv[] )
 
     return 0;
 }
-*/

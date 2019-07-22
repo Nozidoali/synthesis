@@ -1,7 +1,7 @@
 #ifndef ABC_GLOBAL_H
 #define ABC_GLOBAL_H
 
-#include <cstring>
+
 #include <stdio.h>
 #include <memory.h>
 #include <stdlib.h>

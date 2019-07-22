@@ -507,8 +507,7 @@ Rwr_Man_t * Contest_Rwr_ManStart( int  fPrecompute, int limit )
     Rwr_Man_t * p;
     // abctime clk = Abc_Clock();
     // clk = Abc_Clock();
-    p = ABC_ALLOC
-    ( Rwr_Man_t, 1 );
+    p = ABC_ALLOC( Rwr_Man_t, 1 );
     memset( p, 0, sizeof(Rwr_Man_t) );
     p->nFuncs = (1<<16);
     pManDec   = (Dec_Man_t *)Abc_FrameReadManDec();
