@@ -1,2 +1,0 @@
-Vxi = -\[Beta]*Vxi^2*t*Vxi/Abs[Vxi] + Vxi;
-Vyi = (-g - \[Beta]*Vyi^2*Vyi/Abs[Vyi])*t + Vyi;
